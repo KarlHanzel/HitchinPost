@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  receiver: 1
+  date: 2011-11-13
+  time: 2011-11-13 08:08:26
+
+two:
+  receiver: 1
+  date: 2011-11-13
+  time: 2011-11-13 08:08:26

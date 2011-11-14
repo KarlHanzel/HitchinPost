@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>First name:</b>
+  <%= @registrant.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @registrant.last_name %>
+</p>
+
+<p>
+  <b>Birth date:</b>
+  <%= @registrant.birth_date %>
+</p>
+
+<p>
+  <b>Ssn:</b>
+  <%= @registrant.ssn %>
+</p>
+
+<p>
+  <b>E mail:</b>
+  <%= @registrant.e_mail %>
+</p>
+
+
+<%= link_to 'Edit', edit_registrant_path(@registrant) %> |
+<%= link_to 'Back', registrants_path %>
